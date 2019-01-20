@@ -1,0 +1,27 @@
+{
+  "name": "holgermueller-writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holgermueller/Holgermueller-writer.git"
+  },
+  "author": "Holger Mueller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Holgermueller/Holgermueller-writer/issues"
+  },
+  "homepage": "https://github.com/Holgermueller/Holgermueller-writer#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}
