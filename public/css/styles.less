@@ -1,10 +1,69 @@
 // Pallette
+@main-color: #DCDCDC;
 
 // Header
 ul{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-image: linear-gradient(#C0C0C0, #2F4F4F);
+}
+
+li a,
+li img,
+li h3,
+li h4,
+li footer {
+  display: block;
+  text-decoration: none;
+  padding: 4% 8%;
+}
+
+.pic-of-me {
+  padding: 33%;
+}
+
+li h3,
+li h4 {
+  text-align: center;
+}
+
+li a,
+li a:visited {
+  color: #FFFAFA;
+}
+
+li a:hover {
+  background-color: @main-color;
 }
 
 // Footer
+.footer {
+  font-size: .75em;
+  text-align: center;
+}
 
 // Main
+body {
+  margin: 0;
+  background-color: @main-color;
+}
+
+.content {
+  margin-left: 30%;
+}
+
+.section-button {
+  border: none;
+  background: none;
+}
+
+// About Me
+.about-me-content {
+  display: none;
+}
