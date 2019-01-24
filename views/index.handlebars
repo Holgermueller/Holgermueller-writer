@@ -3,9 +3,11 @@
 </section>
 
 <section class="about-me content" id="aboutMe">
-  <button class="section-button" id="about-me-dropdown" data-toggle="dropdown">
-    <h2 class="section-header">About Me<span class="caret"></span></h2>
-  </button>
+  <h2 class="section-header">
+    About Me
+    <button class="section-button" id="about-me-dropdown" data-toggle="dropdown">D</button>
+  </h2>
+
   <div id="aboutMeContent" class="about-me-content">
     some content
   </div>
@@ -40,8 +42,20 @@
   <h2 class="section-header">Contact</h2>
 
   <div>
-    <form action="">
-      
+    <form action="" class="form">
+      <input type="text" placeholder="Name..." class="form-control">
+      <input type="text" placeholder="E-mail..." class="form-control">
+      <select name="" id="country" name="country" class="form-control">
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="sk">South Korea</option>
+        <option value="jp">Japan</option>
+        <option value="au">Australia</option>
+      </select>
+      <textarea name="" id="" cols="30" rows="10" class="form-control">
+        What would you like to say?
+      </textarea>
+      <input type="submit" id="submit" value="SUBMIT" class="form-control">
     </form>
   </div>
 
