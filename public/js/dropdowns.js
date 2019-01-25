@@ -1,9 +1,14 @@
 $(document).ready(() => {
 
+
   $('#about-me-dropdown').on('click', e => {
-    console.log('click');
     e.preventDefault();
-    $(this).toggle();
+    $('#aboutMeContent').toggle('show');
+  });
+
+  $('#contactDropdown').on('click', e => {
+    e.preventDefault();
+    $('#contactForm').toggle('show');
   });
 
 });

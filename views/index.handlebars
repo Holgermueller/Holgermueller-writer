@@ -39,21 +39,23 @@
 <hr>
 
 <section class="contact content" id="contact">
-  <h2 class="section-header">Contact</h2>
+  <h2 class="section-header">Contact
+    <button class="section-button" id="contactDropdown" data-toggle="dropdown">X</button>
+  </h2>
 
-  <div>
+  <div id="contactForm" class="contact-form">
     <form action="" class="form">
-      <input type="text" placeholder="Name..." class="form-control">
-      <input type="text" placeholder="E-mail..." class="form-control">
-      <select name="" id="country" name="country" class="form-control">
+      <input type="text" placeholder="Name..." class="form-control" class="input" required>
+      <input type="text" placeholder="E-mail..." class="form-control input" required>
+      <select name="" id="country" name="country" class="form-control input">
         <option value="us">United States</option>
         <option value="uk">United Kingdom</option>
         <option value="sk">South Korea</option>
         <option value="jp">Japan</option>
         <option value="au">Australia</option>
+        <option value="dec">Decline to answer...</option>
       </select>
-      <textarea name="" id="" cols="30" rows="10" class="form-control">
-        What would you like to say?
+      <textarea name="" id="" cols="30" rows="10" class="form-control input" placeholder="What would you like to say?"></textarea>
       </textarea>
       <input type="submit" id="submit" value="SUBMIT" class="form-control">
     </form>
