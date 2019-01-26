@@ -65,8 +65,23 @@ body {
   background: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 // About Me
 .about-me-content {
+  display: none;
+  position: relative;
+  margin-bottom: 1%;
+}
+
+// Blog
+.blog-content {
   display: none;
   position: relative;
   margin-bottom: 1%;
@@ -103,4 +118,19 @@ textarea {
   border-style: inset;
   border-color: initial;
   border-image: initial;
+}
+
+// Earth's Fall
+.story-section {
+  margin-left: 25%
+}
+
+.story-title,
+.chapter-header {
+  text-align: center;
+}
+
+.chapter-content {
+  display: none;
+  margin-left: 5%;
 }

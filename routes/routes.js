@@ -4,5 +4,9 @@ module.exports =  app => {
     res.render('index');
   });
 
+  app.get('/earthsFall', (req, res) => {
+    res.render('earthsFall');
+  });
+
   // No code below this line!
 }
